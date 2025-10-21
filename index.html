@@ -27,7 +27,7 @@
             Frontend developer passionate about creating accessible and
             beautiful websites for individuals and businesses. Loves drawing,
             reading, and coding. Some of my tech stacks are HTML, CSS,
-            JavaScript, React, Nextjs and TailwindCSS.
+            JavaScript, Typescript, React, Nextjs and TailwindCSS.
           </p>
 
           <div class="time-container">
@@ -43,7 +43,7 @@
 
       <nav class="social-links" data-testid="test-user-social-links">
         <a
-          href="https://x.com/afolabi_ta578?t=9Wp2w1ISKya5NA8vsnPkmA&s=09"
+          href="https://x.com/Kehinde34345081"
           target="_blank"
           rel="noopener noreferrer"
           class="social-link"
@@ -52,7 +52,7 @@
           Twitter
         </a>
         <a
-          href="https://github.com/folabteegee"
+          href="https://github.com/k-folab"
           target="_blank"
           rel="noopener noreferrer"
           class="social-link"
@@ -61,7 +61,7 @@
           GitHub
         </a>
         <a
-          href="https://linkedin.com/in/taiwo-afolabi-b5b827227"
+          href="https://www.linkedin.com/in/kehinde-afolabi-3bab072b2"
           target="_blank"
           rel="noopener noreferrer"
           class="social-link"
@@ -76,10 +76,10 @@
           <h3 class="section-title">Hobbies</h3>
           <ul class="hobbies-list" data-testid="test-user-hobbies">
             <li class="hobby-item">Coding</li>
-            <li class="hobby-item">Drawing</li>
+            <li class="hobby-item">Cycling</li>
             <li class="hobby-item">Reading</li>
             <li class="hobby-item">Gaming</li>
-            <li class="hobby-item">Playing musics</li>
+            <li class="hobby-item">Singing</li>
           </ul>
         </section>
 
@@ -99,11 +99,11 @@
     <script>
       function updateTime() {
         const timeElement = document.getElementById("current-time");
-        timeElement.textContent = new Date().toLocaleTimeString(); // shows readable time
+        timeElement.textContent = Date.now(); // shows current time in milliseconds
       }
 
       updateTime();
-      setInterval(updateTime, 1000);
+      setInterval(updateTime, 1); // updates every millisecond
     </script>
   </body>
 </html>
