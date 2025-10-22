@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — MyCard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a> <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <main class="page-wrapper">
+        <h1 class="page-title">Contact Us</h1>
+
+        <div class="form-card">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Full name</label>
+              <input
+                id="name"
+                name="name"
+                data-testid="test-contact-name"
+                required
+                aria-describedby="error-name"
+              />
+              <div
+                id="error-name"
+                role="alert"
+                class="error"
+                data-testid="test-contact-error-name"
+                hidden
+              ></div>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                data-testid="test-contact-email"
+                required
+                aria-describedby="error-email"
+              />
+              <div
+                id="error-email"
+                role="alert"
+                class="error"
+                data-testid="test-contact-error-email"
+                hidden
+              ></div>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input
+                id="subject"
+                name="subject"
+                data-testid="test-contact-subject"
+                required
+                aria-describedby="error-subject"
+              />
+              <div
+                id="error-subject"
+                role="alert"
+                class="error"
+                data-testid="test-contact-error-subject"
+                hidden
+              ></div>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                data-testid="test-contact-message"
+                class="message-field"
+                required
+                aria-describedby="error-message"
+              ></textarea>
+              <div
+                id="error-message"
+                role="alert"
+                class="error"
+                data-testid="test-contact-error-message"
+                hidden
+              ></div>
+            </div>
+
+            <button type="submit" data-testid="test-contact-submit">
+              Submit
+            </button>
+
+            <div
+              id="success"
+              role="status"
+              data-testid="test-contact-success"
+              hidden
+            ></div>
+          </form>
+        </div>
+      </main>
+    </div>
+
+    <script src="contact.js"></script>
+  </body>
+</html>

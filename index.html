@@ -7,93 +7,99 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <article class="profile-card" data-testid="test-profile-card">
-      <header class="profile-header">
-        <figure class="avatar-container">
-          <img
-            src="me2.jpg"
-            alt="Profile photo of Taiwo Afolabi, a frontend developer"
-            class="avatar"
-            data-testid="test-user-avatar"
-          />
-          <figcaption>A Website developer 💻</figcaption>
-        </figure>
-
-        <div class="profile-info">
-          <h2 class="user-name" data-testid="test-user-name">
-            Kehinde E. Afolabi
-          </h2>
-          <p class="user-bio" data-testid="test-user-bio">
-            Frontend developer passionate about creating accessible and
-            beautiful websites for individuals and businesses. Loves drawing,
-            reading, and coding. Some of my tech stacks are HTML, CSS,
-            JavaScript, Typescript, React, Nextjs and TailwindCSS.
-          </p>
-
-          <div class="time-container">
-            <span class="time-label">Current time (milliseconds):</span>
-            <span
-              class="user-time"
-              data-testid="test-user-time"
-              id="current-time"
-            ></span>
-          </div>
-        </div>
-      </header>
-
-      <nav class="social-links" data-testid="test-user-social-links">
-        <a
-          href="https://x.com/Kehinde34345081"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="social-link"
-          data-testid="test-user-social-twitter"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://github.com/k-folab"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="social-link"
-          data-testid="test-user-social-github"
-        >
-          GitHub
-        </a>
-        <a
-          href="https://www.linkedin.com/in/kehinde-afolabi-3bab072b2"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="social-link"
-          data-testid="test-user-social-linkedin"
-        >
-          LinkedIn
-        </a>
+    <div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a> <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
       </nav>
+      <article class="profile-card" data-testid="test-profile-card">
+        <header class="profile-header">
+          <figure class="avatar-container">
+            <img
+              src="me2.jpg"
+              alt="Profile photo of Taiwo Afolabi, a frontend developer"
+              class="avatar"
+              data-testid="test-user-avatar"
+            />
+            <figcaption>A Website developer 💻</figcaption>
+          </figure>
 
-      <div class="profile-details">
-        <section class="hobbies-section">
-          <h3 class="section-title">Hobbies</h3>
-          <ul class="hobbies-list" data-testid="test-user-hobbies">
-            <li class="hobby-item">Coding</li>
-            <li class="hobby-item">Cycling</li>
-            <li class="hobby-item">Reading</li>
-            <li class="hobby-item">Gaming</li>
-            <li class="hobby-item">Singing</li>
-          </ul>
-        </section>
+          <div class="profile-info">
+            <h2 class="user-name" data-testid="test-user-name">
+              Kehinde E. Afolabi
+            </h2>
+            <p class="user-bio" data-testid="test-user-bio">
+              Frontend developer passionate about creating accessible and
+              beautiful websites for individuals and businesses. Loves drawing,
+              reading, and coding. Some of my tech stacks are HTML, CSS,
+              JavaScript, Typescript, React, Nextjs and TailwindCSS.
+            </p>
 
-        <section class="dislikes-section">
-          <h3 class="section-title">Dislikes</h3>
-          <ul class="dislikes-list" data-testid="test-user-dislikes">
-            <li class="dislike-item">Loud Noises</li>
-            <li class="dislike-item">Overcrowded areas</li>
-            <li class="dislike-item">Dirtiness</li>
-            <li class="dislike-item">Laziness</li>
-          </ul>
-        </section>
-      </div>
-    </article>
+            <div class="time-container">
+              <span class="time-label">Current time (milliseconds):</span>
+              <span
+                class="user-time"
+                data-testid="test-user-time"
+                id="current-time"
+              ></span>
+            </div>
+          </div>
+        </header>
+
+        <nav class="social-links" data-testid="test-user-social-links">
+          <a
+            href="https://x.com/Kehinde34345081"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+            data-testid="test-user-social-twitter"
+          >
+            Twitter
+          </a>
+          <a
+            href="https://github.com/k-folab"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+            data-testid="test-user-social-github"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kehinde-afolabi-3bab072b2"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+            data-testid="test-user-social-linkedin"
+          >
+            LinkedIn
+          </a>
+        </nav>
+
+        <div class="profile-details">
+          <section class="hobbies-section">
+            <h3 class="section-title">Hobbies</h3>
+            <ul class="hobbies-list" data-testid="test-user-hobbies">
+              <li class="hobby-item">Coding</li>
+              <li class="hobby-item">Cycling</li>
+              <li class="hobby-item">Reading</li>
+              <li class="hobby-item">Gaming</li>
+              <li class="hobby-item">Singing</li>
+            </ul>
+          </section>
+
+          <section class="dislikes-section">
+            <h3 class="section-title">Dislikes</h3>
+            <ul class="dislikes-list" data-testid="test-user-dislikes">
+              <li class="dislike-item">Loud Noises</li>
+              <li class="dislike-item">Overcrowded areas</li>
+              <li class="dislike-item">Dirtiness</li>
+              <li class="dislike-item">Laziness</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </div>
 
     <!--  millisecond time   -->
     <script>
