@@ -55,4 +55,4 @@ JavaScript
 
 Live Site: kehindecard.netlify.app
 
-GitHub Repository: [Your Repo Link Here]
+GitHub Repository: https://github.com/k-folab/mycard.git
